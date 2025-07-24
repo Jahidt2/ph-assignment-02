@@ -6,14 +6,14 @@
 /* default font setting */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
-.inter-font{
+.inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.noto-serif-font{
+.noto-serif-font {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -21,96 +21,95 @@
   font-variation-settings: "wdth" 100;
 }
 
-.default-font{
+.default-font {
   font-family: Inter;
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   font-size: 1.375rem;
 }
-.heading-font{
+.heading-font {
   font-family: "Noto Serif", serif;
   font-weight: 700;
   font-size: 3.1rem;
 }
-.span-font{
-  color: #E95A08;
+.span-font {
+  color: #e95a08;
 }
 
 /* shared style */
-.display-flex{
+.display-flex {
   display: flex;
 }
 
 /* navbar design */
-.navbar{
+.navbar {
   max-width: 1140px;
   margin: 30px auto 0px;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav-item{
+.nav-item {
   list-style: none;
   /* margin-right: 48px; */
   /* gap: 48px; */
 }
-.nav-links{
+.nav-links {
   gap: 48px;
 }
-.nav-link{
+.nav-link {
   text-decoration: none;
   font-size: 1rem;
   color: #252432;
   font-weight: 500;
-  
 }
 
 /* banner section style  */
-.banner-container{
+.banner-container {
   max-width: 1140px;
   margin: 120px auto;
   justify-content: center;
   align-items: center;
-
 }
-.banner-heading h1{
-  margin-bottom: .8125rem;
+.banner-heading h1 {
+  margin-bottom: 0.8125rem;
   font-size: 4rem !important;
 }
-
-
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
   /* nav bar style */
-  .mobile{
+  .mobile {
     display: none;
-
   }
-  .navbar{
-    width: 361px;
-    margin: 13px auto 0px;
+  .navbar {
+    /* width: 361px; */
+    margin: 28px 16px;
     justify-content: space-between;
     align-items: center;
   }
-  .navbar img{
+  .navbar img {
     width: 63px;
   }
-  .nav-link i{
+  .nav-link i {
     margin-right: 10px;
   }
 
   /* banner style */
-  .banner-container{
-    width: 361px;
-    /* margin: 28px 16px; */
-    margin: 28px auto 28px;
+  .banner-container {
+    /* width: 100%; */
     flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
+
   }
-  .heading-font{
-    font-size: 24px !important;
+  .banner-heading{
+    margin: 0px 16px;
   }
-  
+  .banner-heading h1 {
+    margin-top: 28px;
+    font-size: 1.375rem !important;
+  }
+  .banner-heading p{
+    font-size: 14px;
+  }
+
 }
