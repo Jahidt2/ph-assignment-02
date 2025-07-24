@@ -60,3 +60,27 @@
   font-weight: 500;
   
 }
+
+
+
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+  .mobile{
+    display: none;
+
+  }
+  .navbar{
+    width: 361px;
+    margin: 13px auto 0px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar img{
+    width: 63px;
+  }
+  .nav-link{
+    gap: 10px;
+  }
+  
+}
