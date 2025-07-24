@@ -51,7 +51,11 @@
 
 .nav-item{
   list-style: none;
-  margin-right: 48px;
+  /* margin-right: 48px; */
+  /* gap: 48px; */
+}
+.nav-links{
+  gap: 48px;
 }
 .nav-link{
   text-decoration: none;
@@ -78,6 +82,7 @@
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
+  /* nav bar style */
   .mobile{
     display: none;
 
@@ -91,8 +96,21 @@
   .navbar img{
     width: 63px;
   }
-  .nav-link{
-    gap: 10px;
+  .nav-link i{
+    margin-right: 10px;
+  }
+
+  /* banner style */
+  .banner-container{
+    width: 361px;
+    /* margin: 28px 16px; */
+    margin: 28px auto 28px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading-font{
+    font-size: 24px !important;
   }
   
 }
