@@ -284,6 +284,7 @@ footer{
 .footer2, .footer3{
   display: flex;
   justify-content: center;
+  font-size: 15px;
 }
 .footer2 ul li, .footer3 ul li{
   margin-bottom: 32px;
@@ -484,7 +485,7 @@ footer{
   display: flex;
   justify-content: start;
   margin-bottom: 20px;
-  font-size: 15px;
+  
 }
 .footer4{
   text-align: left;
