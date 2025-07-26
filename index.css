@@ -230,6 +230,41 @@
   font-size: 40px !important;
 }
 
+/* colorful-bunch */
+
+.colorful-bunch {
+  max-width: 1440px;
+  margin: 0 auto 300px;
+  position: relative;
+}
+.search{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.search P{
+  color: white;
+}
+.subscribe input{
+  width: 644px;
+  height: 50px;
+  padding: 0 10px;
+  border: none;
+}
+.subscribe button{
+  width: 188px;
+  height: 51px;
+  margin-left: -4px;
+  border: none;
+  background-color: #e95a08;
+  color: white;
+}
+
 
 /* responsive media query */
 
