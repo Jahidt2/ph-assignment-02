@@ -260,4 +260,29 @@
     max-width: 171px !important;
     margin: 28px auto;
   }
+
+  /* flower shope style */
+
+  .badge-img{
+    display: none;
+  }
+  .flower-plants{
+    width: 361px !important;
+    margin: 41px auto 143px;
+    flex-direction: column;
+  }
+  .flower{
+    width: 100%;
+  }
+  .lover-points{
+    width: 361px;
+    margin: 18px auto 0px;
+  }
+  .lover-points h3{
+    font-size: 24px;
+  }
+  .lover-points ul li{
+    font-size: 14px;
+    overflow: hidden;
+  }
 }
