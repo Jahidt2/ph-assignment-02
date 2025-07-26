@@ -173,6 +173,7 @@
 
 .deals{
   max-width: 1440px;
+  margin: 0px auto;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -181,6 +182,54 @@
 .deals p{
   width: 888px;
 }
+
+/* deals banner design */
+
+.deals-banner{
+  max-width: 1140px;
+  margin: 120px auto;
+  gap: 28px;
+}
+.small-cards{
+  flex-direction: column;
+  gap: 25px;
+}
+.deals-card, .large-card{
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+.deals-card img , .large-card img{
+  object-fit: cover;
+  filter: brightness(0.6);
+   display: block;
+}
+.deal-card-details{
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.deal-card-details h2{
+  font-size: 20px;
+  font-family: inter;
+  font-weight: bold;
+}
+.deal-card-details a{
+  font-size: 16px;
+  color: white;
+  margin-top: 19px;
+}
+.large-card h2{
+  font-size: 40px !important;
+}
+
 
 /* responsive media query */
 
@@ -314,4 +363,6 @@
     font-size: 14px;
     margin: 0px auto;
   }
+
+  /*  */
 }
