@@ -408,15 +408,33 @@
     width: 361px;
     margin: 51px auto 40px;
   }
-  .large-card{
-    
+  .large-card{  
     width: 367px;
     height: 198px;
-    
   }
-
   .large-card h2{
     font-size: 22px !important;
   }
 
+  /* colorful bunch style */
+
+  .colorful-bunch img{
+    width: 393px;
+    height: 276px;
+    object-fit: cover;
+   
+  }
+  .search p{
+    font-size: 20px;
+  }
+
+.subscribe input{
+  width: 218px;
+  height: 50px;
+}
+.subscribe button{
+  width: 103px;
+  height: 51px;
+
+}
 }
