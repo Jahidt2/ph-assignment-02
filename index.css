@@ -204,7 +204,7 @@
 .deals-card img , .large-card img{
   object-fit: cover;
   filter: brightness(0.6);
-   display: block;
+  display: block;
 }
 .deal-card-details{
   position: absolute;
@@ -364,5 +364,24 @@
     margin: 0px auto;
   }
 
-  /*  */
+  /* deals banner cars style */
+
+  .deals-banner{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 361px;
+    margin: 51px auto 40px;
+  }
+  .large-card{
+    
+    width: 367px;
+    height: 198px;
+    
+  }
+
+  .large-card h2{
+    font-size: 22px !important;
+  }
+
 }
