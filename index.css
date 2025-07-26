@@ -140,6 +140,35 @@
   padding: 10px;
 }
 
+/* flower plants style */
+
+.flower-plants{
+  max-width: 1140px;
+  margin: 210px auto 133px;
+  align-items: center;
+  justify-content: space-between;
+}
+.flower-img{
+  position: relative;
+}
+.badge-img{
+  position: absolute;
+  width: 286px;
+  top: -150px;
+  left: 350px;
+}
+.lover-points{
+  width: 540px;
+  
+}
+.heading-font{
+  margin-bottom: 20px;
+}
+.lover-list li{
+  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
+}
+
 
 /* responsive media query */
 
@@ -163,16 +192,18 @@
 
   /* banner style */
   .banner-container {
-    width: 375px;
-    /* width: 100%; */
+    /* width: 375px; */
+    width: 100%;
     flex-direction: column-reverse;
 
   }
   .banner-img{
-    width: 361px;
+    width: 393px;
+    margin: auto auto;
   }
   .banner-heading{
-    margin: 0px 16px;
+    width: 361px;
+    margin: 0px 0px;
   }
   .banner-heading h1 {
     margin-top: 28px;
